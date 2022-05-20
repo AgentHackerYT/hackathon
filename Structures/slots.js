@@ -1,9 +1,10 @@
 const easyArr = ['🍇', '🍊', '🍐', '🍋', '🍌', '🥝','🥥'];
 
 const medArr = ':heart: :brown_heart: :green_heart: :black_heart: :blue_heart: :purple_heart: :orange_heart: :white_heart: 💖 💘 💝'.split(' ')
+
  function slots(mode = "easy"){
 
-    if(mode == "medium"){
+    if(mode == "easy"){
 
         const shuffled = SlotShuffle(easyArr)
             
