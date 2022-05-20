@@ -193,7 +193,7 @@ client.on('messageCreate', async(message) =>{
 
     }
 
-    if(command === "balance"){
+    if(command === "balance" || command === "bal'){
 
         const balanceEmbed = new Discord.MessageEmbed()
 
@@ -205,6 +205,20 @@ client.on('messageCreate', async(message) =>{
 
         message.channel.send({embeds: [balanceEmbed]})
 
+    }
+    
+    if(command === "help"){
+    
+        const embed = new Discord.MessageEmbed()
+        
+        .setTitle("SLOT BOT")
+        
+        .setDescription("Slots: sb!slot\n\nDaily: sb!daily\n\nBeg: sb!beg\n\nBalance: sb!bal")
+        
+        .setColor("RANDOM")
+        
+        .setThumbnail("https://cdn5.vectorstock.com/i/thumb-large/08/69/gambling-casino-games-neon-logo-with-slot-machine-vector-20380869.jpg")
+        
     }
     
 })
