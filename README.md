@@ -1,3 +1,7 @@
+<div style="align-items: center;">
+        <h1>Hello</h1>
+        </div>
+
 # Hackathon
 - A Simple Slot Bot Made For [**Documatic**](https://www.documatic.com/) Hackathon
 # Start?
@@ -6,7 +10,7 @@
 ```
 TOKEN=TOKEN_HERE
 ```
-- Run ```sh
+- Run ```
         npm i discord.js
         node index.js
         ```
