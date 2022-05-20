@@ -219,6 +219,8 @@ client.on('messageCreate', async(message) =>{
         
         .setThumbnail("https://cdn5.vectorstock.com/i/thumb-large/08/69/gambling-casino-games-neon-logo-with-slot-machine-vector-20380869.jpg")
         
+        message.channel.send({embeds: [embed]})
+        
     }
     
 })
