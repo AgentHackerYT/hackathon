@@ -1,5 +1,6 @@
 <div align="center">
-        <h1>Hello</h1>
+        <h1>Slot Bot</h1>
+        <img src="https://w7.pngwing.com/pngs/410/804/png-transparent-double-diamond-fruit-machines-money-wheel-slot-machine-game-classic-slots-free-casino-slot-games-classic-slot-machine-free-others-emblem-logo-video-game.png">
         </div>
 
 # Hackathon
